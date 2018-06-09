@@ -3,9 +3,10 @@ This exists purely for demonstration- and training-purposes.
 # Installation
 
 1. Clone the repository
-2. Run `npm install`
-3. Run `npm test`
-4. Run `npm start`
+2. Install MongoDB [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/), [OSX Homebrew (make sure to start MongoDB with ` brew services start mongodb)`](https://docs.mongodbcom/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew). After installing, MongoDB should listen onlocalhost,  port 27017
+3. Run `npm install`
+4. Run `npm test`
+5. Run `npm start`
 
 # Exercise
 Implement a backend for a todo list using this template.
