@@ -8,7 +8,7 @@ This exists purely for demonstration- and training-purposes.
 4. Run `npm test`
 5. Run `npm start`
 
-# Exercise
+# Assignment
 Implement a backend for a todo list using this template.
 Everything needed to complete this assignment was done in a similar way in [addressbook-backend](https://github.com/danielkhan/addressbook-backend/blob/master/README.md).
 
