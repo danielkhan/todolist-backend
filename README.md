@@ -10,7 +10,7 @@ This exists purely for demonstration- and training-purposes.
 
 # Exercise
 Implement a backend for a todo list using this template.
-Everything you need was done in a similar way in [addressbook-backend](https://github.com/danielkhan/addressbook-backend/blob/master/README.md).
+Everything needed to complete this assignment was done in a similar way in [addressbook-backend](https://github.com/danielkhan/addressbook-backend/blob/master/README.md).
 
 ## General Requirements
 * The todo-list should support [multiple-tenants](https://en.wikipedia.org/wiki/Multitenancy) (Userregistration and JWT authentication are already included)
