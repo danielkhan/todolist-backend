@@ -17,18 +17,19 @@ Implement a backend for a todo list using this template.
 
 ## Data Model
 A todo list item consists of the following fields. 
-* task: The task that needs to be done
-* duedate: The due date
-* priority: The priority (numeric, like 1 to 10)
-* done: To be set when the task is done
-* user_id: The id of the user the item was created for
+* `task`: The task that needs to be done
+* `duedate`: The due date
+* `priority`: The priority (numeric, like 1 to 10)
+* `done`: To be set when the task is done
+* `user_id`: The id of the user the item was created for
+* Mongoose fields createdAt and updatedAt
 
 ## API Methods
-* POST /api/v1/todo: Creates a new item and returns it in a fields `data` with HTTP status 201
-* PUT /api/v1/todo/{todoId}: Updates an item and returns it in a fields `data` with HTTP status 202
-* DELETE /api/v1/todo/{todoId}: Deletes an item and returns `{data: 'ok'}` with HTTP status 202
-* GET /api/v1/todo/: Returns all items sorted by priority (and ideally also by date of creation) with HTTP status 200
-* PUT /api/v1/todo/{todoId}/done: Marks an item as done and returns it in a fields `data` with HTTP status 202
+* `POST /api/v1/todo`: Creates a new item and returns it in a fields `data` with HTTP status 201
+* `PUT /api/v1/todo/{todoId}`: Updates an item and returns it in a fields `data` with HTTP status 202
+* `DELETE /api/v1/todo/{todoId}`: Deletes an item and returns `{data: 'ok'}` with HTTP status 202
+* `GET /api/v1/todo/`: Returns all items sorted by priority (and ideally also by date of creation) with HTTP status 200
+* `PUT /api/v1/todo/{todoId}/done`: Marks an item as done and returns it in a fields `data` with HTTP status 202
 
 ## Voluntary Extra Task
 * Create tests for all /api/v1/todo routes
