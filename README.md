@@ -26,7 +26,7 @@ A todo list item consists of the following fields.
 
 ## API Methods
 * `POST /api/v1/todo`: Creates a new item and returns it in a fields `data` with HTTP status 201
-* `PUT /api/v1/todo/{todoId}`: Updates an item and returns it in a fields `data` with HTTP status 202
+* `PUT /api/v1/todo/{todoId}`: Updates an item and returns it in a field `data` with HTTP status 202
 * `DELETE /api/v1/todo/{todoId}`: Deletes an item and returns `{data: 'ok'}` with HTTP status 202
 * `GET /api/v1/todo/`: Returns all items sorted by priority (and ideally also by date of creation) with HTTP status 200
 * `PUT /api/v1/todo/{todoId}/done`: Marks an item as done and returns it in a fields `data` with HTTP status 202
