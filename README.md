@@ -33,3 +33,6 @@ A todo list item consists of the following fields.
 
 ## Voluntary Extra Task
 * Create tests for all /api/v1/todo routes
+
+# Submission
+Please upload a ZIP archive _without_ node_modules
